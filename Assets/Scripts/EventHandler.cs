@@ -20,4 +20,8 @@ public class EventHandler : MonoBehaviour {
     {
         SceneManager.LoadSceneAsync(1, LoadSceneMode.Single);
     }
+    public void sceneTutorial()
+    {
+        SceneManager.LoadSceneAsync(2, LoadSceneMode.Single);
+    }
 }
