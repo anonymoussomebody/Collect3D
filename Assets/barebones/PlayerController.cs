@@ -16,13 +16,13 @@ public class PlayerController : MonoBehaviour {
 
     // General
     public GameObject player;
-    public GameObject camera;
+    public new GameObject camera;
 
 	// Use this for initialization
 	void Start () {
         Cursor.lockState = CursorLockMode.Locked;
-        player = this.transform.parent.gameObject;
-	}
+        //player = this.transform.parent.gameObject;
+    }
 	
 	// Update is called once per frame
 	void Update () {
