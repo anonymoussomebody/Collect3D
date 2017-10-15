@@ -24,4 +24,8 @@ public class EventHandler : MonoBehaviour {
     {
         SceneManager.LoadSceneAsync(2, LoadSceneMode.Single);
     }
+    public void sceneTutorial2()
+    {
+        SceneManager.LoadSceneAsync(3, LoadSceneMode.Single);
+    }
 }
