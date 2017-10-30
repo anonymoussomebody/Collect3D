@@ -77,8 +77,8 @@ public class PlayerController : MonoBehaviour {
         mLook += mSmoothV;
         mLook.y = Mathf.Clamp(mLook.y, -45f, 45f);
         mLook.x = Mathf.Clamp(mLook.x, -45f, 45f);
-        camera.transform.localRotation = Quaternion.AngleAxis(-mLook.y, Vector3.right);
-        playerHost.transform.localRotation = Quaternion.AngleAxis(mLook.x, playerHost.transform.up);
+        //camera.transform.localRotation = Quaternion.AngleAxis(-mLook.y, Vector3.right);
+        //playerHost.transform.localRotation = Quaternion.AngleAxis(mLook.x, playerHost.transform.up);
     }
 
     public void ReturnGameClicked()
