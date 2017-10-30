@@ -505,6 +505,105 @@ ModelImporter:
     4300192: group_66
     4300194: group_67
     4300196: group_68
+    6400000: group_0
+    6400002: group_1
+    6400004: group_10
+    6400006: group_11
+    6400008: group_12
+    6400010: group_13
+    6400012: group_14
+    6400014: group_15
+    6400016: group_16
+    6400018: group_17
+    6400020: group_18
+    6400022: group_19
+    6400024: group_2
+    6400026: group_20
+    6400028: group_21
+    6400030: group_22
+    6400032: group_23
+    6400034: group_24
+    6400036: group_25
+    6400038: group_26
+    6400040: group_27
+    6400042: group_28
+    6400044: group_29
+    6400046: group_3
+    6400048: group_30
+    6400050: group_31
+    6400052: group_32
+    6400054: group_33
+    6400056: group_34
+    6400058: group_35
+    6400060: group_36
+    6400062: group_37
+    6400064: group_38
+    6400066: group_39
+    6400068: group_4
+    6400070: group_40
+    6400072: group_41
+    6400074: group_42
+    6400076: group_43
+    6400078: group_44
+    6400080: group_45
+    6400082: group_46
+    6400084: group_47
+    6400086: group_48
+    6400088: group_49
+    6400090: group_5
+    6400092: group_50
+    6400094: group_51
+    6400096: group_52
+    6400098: group_53
+    6400100: group_54
+    6400102: group_55
+    6400104: group_56
+    6400106: group_57
+    6400108: group_58
+    6400110: group_59
+    6400112: group_6
+    6400114: group_60
+    6400116: group_61
+    6400118: group_62
+    6400120: group_63
+    6400122: group_64
+    6400124: group_65
+    6400126: group_66
+    6400128: group_67
+    6400130: group_68
+    6400132: group_7
+    6400134: group_8
+    6400136: group_9
+    6400138: ID111
+    6400140: ID137
+    6400142: ID17
+    6400144: ID172
+    6400146: ID207
+    6400148: ID242
+    6400150: ID259
+    6400152: ID285
+    6400154: ID311
+    6400156: ID328
+    6400158: ID345
+    6400160: ID371
+    6400162: ID388
+    6400164: ID441
+    6400166: ID458
+    6400168: ID475
+    6400170: ID492
+    6400172: ID509
+    6400174: ID526
+    6400176: ID543
+    6400178: ID560
+    6400180: ID577
+    6400182: ID58
+    6400184: ID594
+    6400186: ID647
+    6400188: ID664
+    6400190: ID699
+    6400192: ID734
+    6400194: ID769
+    6400196: ID822
     9500000: //RootNode
   externalObjects:
   - first:
@@ -558,10 +657,10 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     importVisibility: 1
     importBlendShapes: 1
-    importCameras: 1
+    importCameras: 0
     importLights: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
