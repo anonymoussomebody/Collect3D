@@ -16,15 +16,17 @@ public class EventHandler : MonoBehaviour {
     {
         SceneManager.LoadSceneAsync(0, LoadSceneMode.Single);
     }
-    public void sceneBarebones()
+    public void sceneTutorial2()
     {
         SceneManager.LoadSceneAsync(1, LoadSceneMode.Single);
     }
-    public void sceneTutorial()
+
+    // Load Level Explore Scenes
+    public void exploreBarebones()
     {
         SceneManager.LoadSceneAsync(2, LoadSceneMode.Single);
     }
-    public void sceneTutorial2()
+    public void exploreTutorial()
     {
         SceneManager.LoadSceneAsync(3, LoadSceneMode.Single);
     }
