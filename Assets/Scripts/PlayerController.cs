@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour {
 
@@ -33,7 +34,7 @@ public class PlayerController : MonoBehaviour {
 
     void Start ()
     {
-        Cursor.lockState = CursorLockMode.Locked;
+        //Cursor.lockState = CursorLockMode.Locked;
         rb = GetComponent<Rigidbody>();
         count = 0;
         LevelCompleted();
@@ -52,21 +53,28 @@ public class PlayerController : MonoBehaviour {
         rb.AddForce(movement);
 
         // Pause Menu
-        KeyCode pause = KeyCode.Escape;
-        if (isPaused == false)
+        //KeyCode pause = KeyCode.Escape;
+        //if (isPaused == false)
+        //{
+        //    if (Input.GetKeyDown(pause))
+        //    {
+        //        levelPaused.SetActive(true);
+        //        isPaused = true;
+        //    }
+        //} else if (isPaused == true)
+        //{
+        //    if (Input.GetKeyDown(pause))
+        //    {
+        //        levelPaused.SetActive(false);
+        //        isPaused = false;
+        //    }
+        //}
+
+        // Escape Key for Menu Exit
+        if (Input.GetKeyDown("escape"))
         {
-            if (Input.GetKeyDown(pause))
-            {
-                levelPaused.SetActive(true);
-                isPaused = true;
-            }
-        } else if (isPaused == true)
-        {
-            if (Input.GetKeyDown(pause))
-            {
-                levelPaused.SetActive(false);
-                isPaused = false;
-            }
+            //Cursor.lockState = CursorLockMode.None;
+            SceneManager.LoadSceneAsync(0, LoadSceneMode.Single);
         }
 
         // NEW Mouse Input
